@@ -1,0 +1,92 @@
+.popUpContainer{
+        /* display: none;  */
+    z-index: 9999;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.363);
+    height: 100vh;
+  
+    
+}
+
+ .popUp{
+    
+    position: relative;
+    top: 25%;
+    left: 50%;
+    
+    justify-content: center;
+    align-items: center;
+
+    transform: translate(-50%);
+    /* height: 100vh; */
+
+    
+}
+
+.popUp{
+    /* position: absolute; */
+    background: url(../images/David\ Golal_Vanocni\ voucher_1080x1080px.jpg) center no-repeat;
+    background-size: cover;
+    
+    width: 300px;
+    height: 300px;
+    
+    
+  
+    /* overflow: hidden; */
+
+    
+}
+
+
+.btnPop{
+    position: absolute;
+    margin-top: 85%;
+    /* align-items: center; */
+    text-align: center;
+    left: 25%;
+    
+   
+}
+
+
+.cancel{
+    
+    background: white;
+    border-radius: 50%;
+    padding: 2px;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    bottom: 96%;
+    left: 90%;
+}
+
+
+
+
+
+/* .btnPop{
+        position: absolute;
+    margin-top: 72%;
+} */
+
+@media only screen and (min-width: 767px) {
+    .popUp{
+        width: 500px;
+        height: 500px;
+    }
+
+    .btnPop{
+        margin-top: 95%;
+        left: 35%;
+    }
+
+    .cancel{
+        bottom: 98%;
+    }
+}
+
